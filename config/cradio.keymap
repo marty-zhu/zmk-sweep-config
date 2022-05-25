@@ -75,7 +75,7 @@
 		&kp Q &kp W &kp E &kp R &kp T 						&kp Y &kp U  &kp I    &kp O   &kp P 
 		&kp A &kp S &kp D &kp F &kp G 			        	        &kp H &kp J &kp K &kp L &kp QUOT
 		&mt LSFT Z &mt LALT X &kp C &kp V &kp B				        &kp N &kp M  &kp CMMA &mt RALT DOT &mt RSFT FSLH
-          				&mo 1 &kp LGUI  				&kp RCTL &mt SPC 2 
+          				&mo 1 &kp LGUI  				&kp RCTL &mt 2 SPC 
 		>;
 		};
 
@@ -84,7 +84,7 @@
 		&kp TAB &kp KP_PLUS &kp KP_MINUS    &kp KP_MULTIPLY    &kp KP_DIVIDE    &kp PLUS &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp BKSP 
 		&kp ESC    &kp TILDE    &kp DLLR      &kp PRCT     &kp CRRT 		&kp MINUS &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp RET 
 		&kp KP_NLCK    &kp K_PREV 	&kp K_PP &kp K_NEXT  &kp KP_DOT 	&kp ASTRK &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp EQL 
-					    &mo 1  &trans  					    &kp SPC &mt SPC 2 
+					    &mo 1  &trans  					    &kp RCTL &mt 2 SPC 
 		>;
 		};
 		
@@ -93,7 +93,7 @@
 		&kp TAB  &kp BANG &kp UNDER  &kp LBKT  &kp RBKT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp BKSP 
 		&kp ESC  &kp COLON  &kp SEMI  &kp LBRC  &kp RBRC 			&kp AMPS &kp HASH  &kp PIPE  &kp BSLH   &kp ENTER
 		&kp LSFT  &kp GRAVE &kp AT &kp LPAR   &kp RPAR    			&kp UNDER &kp K_MUTE &kp K_VOL_UP &kp K_VOL_DN  &kp RSFT
-					  &mo 1 &kp LGUI  				&trans &mt SPC 2 
+					  &mo 1 &kp LGUI  				&trans &mt 2 SPC 
 		>;
 		};	
 		
