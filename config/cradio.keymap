@@ -81,18 +81,18 @@
 
        		left_layer {
 		bindings = <
-		&kp TAB &kp KP_PLUS &kp KP_MINUS    &kp KP_MULTIPLY    &kp KP_DIVIDE    &kp PLUS &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp DEL 
+		&kp TAB &kp KP_PLUS &kp KP_MINUS    &kp KP_MULTIPLY    &kp KP_DIVIDE    &kp PLUS &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp BKSP 
 		&kp ESC    &kp TILDE    &kp DLLR      &kp PRCT     &kp CRRT 		&kp MINUS &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp RET 
-		&kp KP_CLEAR    &kp K_PREV 	&kp K_PP &kp K_NEXT  &kp KP_DOT 	&kp ASTRK &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp EQL 
+		&kp KP_NLCK    &kp K_PREV 	&kp K_PP &kp K_NEXT  &kp KP_DOT 	&kp ASTRK &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp EQL 
 					    &mo 1  &trans  					    &kp SPC &mo 3 
 		>;
 		};
 		
 		right_layer {
 		bindings = <
-		&kp TAB  &kp BANG &kp UNDER  &kp LBRC  &kp RBRC    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp BKSP 
+		&kp TAB  &kp BANG &kp UNDER  &kp LBRC  &kp RBRC    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp DEL 
 		&kp ESC  &kp COLON  &kp SEMI  &kp LBKT  &kp RBKT 			&kp AMPS &kp HASH  &kp PIPE  &kp BSLH   &kp ENTER
-		&kp LSFT  &kp GRAVE &kp AT &kp KP_LPAR   &kp KP_RPAR    			&kp UNDER &kp K_MUTE &kp K_VOL_UP &kp K_VOL_DN  &kp RSFT
+		&kp LSFT  &kp GRAVE &kp AT &kp LPAR   &kp RPAR    			&kp UNDER &kp K_MUTE &kp K_VOL_UP &kp K_VOL_DN  &kp RSFT
 					  &mo 3 &kp LGUI  				&trans &mo 2 
 		>;
 		};	
@@ -100,9 +100,9 @@
 		tri_layer {
 		bindings = <
 		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 			&kp F6 &kp F7 &kp F8 &kp F9 &kp F10
-		&kp F11 &trans &trans &trans &trans                     &trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &kp F12 
-		&trans &trans &trans &trans &trans                      &trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &trans &trans  					&trans &trans 
+		&kp F11 &trans &trans &trans &trans                     &kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp F12 
+		&trans &trans &trans &trans &trans                      &trans &kp PG_DN  &kp PG_UP  &trans &trans   
+					 &mo 1 &trans  					&trans &mo 2 
 		>;
 		};	
         
