@@ -82,7 +82,7 @@
        		left_layer {
 		bindings = <
 		&kp TAB &kp KP_PLUS &kp KP_MINUS    &kp KP_MULTIPLY    &kp KP_DIVIDE    &kp PLUS &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp BKSP 
-		&kp ESC    &kp TILDE    &kp DLLR      &kp PRCT     &kp CRRT 		&kp MINUS &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp RET 
+		&kp ESC    &kp CRRT    &kp TILDE      &kp DLLR     &kp PRCT 		&kp MINUS &kp NUM_4  &kp NUM_5 &kp NUM_6  &kp RET 
 		&kp KP_NLCK    &kp K_PREV 	&kp K_PP &kp K_NEXT  &kp KP_DOT 	&kp ASTRK &kp NUM_1 &kp NUM_2 &kp NUM_3  &kp EQL 
 					    &mo 1  &trans  					    &kp NUM_0 &lt 2 SPC 
 		>;
@@ -101,7 +101,7 @@
 		bindings = <
 		&kp F1  &kp F2    &kp F3    &kp F4    &kp F5 			&kp F6 &kp F7 &kp F8 &kp F9 &kp F10
 		&kp F11 &trans &trans &trans &trans                     &kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp F12 
-		&kp LSFT &kp LALT &trans &trans &trans                      &trans &kp PG_DN  &kp PG_UP  &kp RALT &kp RSFT
+		&kp LSFT &kp LALT &bt BT_CLR &trans &bt BT_PRV          &bt BT_NXT &kp PG_DN  &kp PG_UP  &kp RALT &kp RSFT
 					 &mo 1 &kp LGUI  					&kp RCTL &mo 2 
 		>;
 		};	
